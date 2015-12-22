@@ -11,7 +11,7 @@ public class ShapesArea {
         return a*b;
     }
     public static double calcCircleArea (int r){
-        return Math.PI*r*r;
+        return Math.PI*Math.pow(r,2);
     }
 
 }
