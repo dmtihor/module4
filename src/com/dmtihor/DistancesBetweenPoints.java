@@ -5,6 +5,6 @@ package com.dmtihor;
  */
 public class DistancesBetweenPoints {
     static double length(Point a, Point b) {
-        return Math.sqrt((a.x - b.x) * (a.x - b.x) + (a.y - b.y) * (a.y - b.y));
+        return Math.sqrt((Math.pow((a.x - b.x),2) + Math.pow((a.y - b.y),2)));
     }
 }
